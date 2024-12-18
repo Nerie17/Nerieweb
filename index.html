@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #444;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #03a4ee;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            margin-bottom: 10px;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .portfolio-grid img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #687685;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #fff;
+        }
+        li, p {
+            text-align: center;
+        }
+
+        ul {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header data-aos="fade-down">
+    <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Nerielyn Alagar</h1>
+    <p>Bagoong Pook Rosario, Batangas</p>
+</header>
+
+<nav data-aos="fade-down" data-aos-delay="200">
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#seminar">Seminar</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>Hello! I’m Nerielyn Alagar, a dedicated and hardworking professional with experience in production operations and a passion for technology. I excel in troubleshooting, managing tasks efficiently, and delivering results.</p>
+    </section>
+
+    <section id="skills" data-aos="fade-up" data-aos-delay="200">
+        <h2>Skills</h2>
+        <ul>
+           <P>Hardware and Software Troubleshooting</P>
+           <P>Microsoft Office Suite (Word, Excel, PowerPoint)</P>
+            <P>Team Collaboration and Time Management</P>
+        </ul>
+    </section>
+
+    <section id="experience" data-aos="fade-up" data-aos-delay="400">
+        <h2>Experience</h2>
+        <ul>
+            <p>Web Dev (2018)</p>
+            <p>Software Engineer (2019)</p>
+            <p>LGU Agricultural/Checker (2021)</p>
+        </ul>
+    </section>
+
+    <section id="education" data-aos="fade-up" data-aos-delay="600">
+        <h2>Education</h2>
+        <ul>
+           <P>Westmead International School - June 2025</P>
+            <P>PVGMA SENIOR HIGH 2019-2021</P>
+            <P>Saint Joseph College Highschool 2018-2019</P>
+            <P>Rosario East Central School 2014-2015</P>
+        </ul>
+    </section>
+
+    <section id="seminar" data-aos="fade-up" data-aos-delay="800">
+        <h2>Seminar</h2>
+        <p>ISITE</p>
+        <p>BITS-2023</p>
+        <p>JARVIS</p>
+        <p>HACKIN KNL</p>
+        <p>Y4IT RESEARCH</p>
+        <p>BITS-2024</p>
+    </section>
+
+    <section id="contact" data-aos="fade-up" data-aos-delay="1000">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me on the following platforms:</p>
+        <ul>
+            Instagram: <a href="https://www.instagram.com/neriealagar/profilecard/?igsh=dXgwd3lxY2lyZ242" target="_blank"><i class="fab fa-instagram"></i> @NERIEALAGAR</a>
+            Facebook: <a href="https://www.facebook.com/profile.php?id=61567070579470" target="_blank"><i class="fab fa-facebook"></i> Nerielyn Alagar</a>
+            Email: <a href="mailto:neriealagar123@gmail.com">neriealagar123@gmail.com</a>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Nerielyn Alagar. All Rights Reserved. | <a href="#top">Back to Top</a></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
